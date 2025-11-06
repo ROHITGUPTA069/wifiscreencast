@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WiFi Screen Cast</string>
+
+    <string name="instructions">
+        Instructions:\n
+        1. Connect your device and receiving device to the same Wi-Fi network\n
+        2. Tap \"Start Screen Cast\" and grant permissions\n
+        3. Use the Stream URL in VLC or any RTSP player:\n
+           • VLC: Media → Open Network Stream → Enter URL\n
+           • FFplay: ffplay rtsp://[IP]:8554/screen\n
+        4. Tap \"Stop Cast\" when finished
+    </string>
+
+    <string name="notification_title">Screen Cast Active</string>
+    <string name="notification_text">Your screen is being casted</string>
+</resources>
